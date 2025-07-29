@@ -1,0 +1,113 @@
+body {
+    background: #222;
+    color: #eee;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+    background: #333;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 14px;
+    max-width: 650px;
+    box-shadow: 0 6px 24px #111;
+}
+
+h2 {
+    color: #93caff;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #aee;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: #eee;
+    font-size: 1em;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    background: #3693ff;
+    color: #fff;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 8px;
+    box-shadow: 0 2px 8px #5558;
+}
+
+button:hover {
+    background: #2763b8;
+}
+
+.add-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    background: #21c4be;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 2px 6px #2228;
+}
+
+.add-btn:hover {
+    background: #148a83;
+}
+
+.error {
+    background: #c81c1c;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #3693ff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #2a2a2a;
+}
+
+a {
+    color: #93caff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
